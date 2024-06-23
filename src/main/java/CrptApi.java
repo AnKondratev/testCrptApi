@@ -1,14 +1,14 @@
-import org.apache.http.HttpEntity; // представляет сущность HTTP (запрос или ответ).
-import org.apache.http.client.methods.CloseableHttpResponse; // представляет ответ HTTP и может быть закрыт.
-import org.apache.http.client.methods.HttpPost; // представляет HTTP POST-запрос.
-import org.apache.http.entity.StringEntity; //представляет строку как содержимое сущности HTTP.
-import org.apache.http.impl.client.CloseableHttpClient; //представляет клиент HTTP, который может быть закрыт.
-import org.apache.http.impl.client.HttpClients; // создает экземпляры CloseableHttpClient.
-import org.apache.http.util.EntityUtils; //утилиты для работы с объектами HttpEntity.
-import com.google.gson.Gson; // используется для преобразования Java объектов в JSON и обратно
-import com.google.gson.JsonElement; // представляет элемент JSON.
-import com.google.gson.JsonObject; //  представляет объект JSON.
-import com.google.gson.JsonParser; // используется для парсинга JSON-строк в объекты JsonElement.
+import org.apache.http.HttpEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import java.io.FileReader;
 import java.io.IOException;
